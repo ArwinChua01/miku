@@ -1,0 +1,80 @@
+.primary{
+    background: crimson ;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary:hover{
+    color: white;
+    background:#d95700;
+}
+
+.primary5{
+    background: darkcyan ;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.primary1{
+    background: #d95700 ;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary1:hover{
+    color: white;
+    background:#d95700;
+}
+
+
+.primary3{
+    background: seagreen ;
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.primary3:hover{
+    color: white;
+    background:#d95700;
+}
+
+
+.primary4{
+    background: slategray ;
+    color: white;
+    padding: 13px;
+    display: flex;
+    border-radius: 5px;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary4:hover{
+    color: white;
+    background:#d95700;
+}
