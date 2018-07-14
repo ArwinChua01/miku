@@ -49,18 +49,34 @@
  
     
     <!-- image slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+    <li data-target="#slides" data-slide-to="1" ></li>
+    <li data-target="#slides" data-slide-to="2"></li>
+    
+</ul>
 
-        <div class="landing-sectionn imagee">
+<div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="./img/bkg.jpg" alt="" srcset="">
+        <div class="carousel-caption">
             <h1 class="display-2">Bootstrap</h1>
-         
-            <h3 class="display-4">Web Designing with Miku</h3>
-            <div class="roww">
-                <button type="button" class="btn btnn btn-outline-light btn-lg" >VIEW DEMO</button>
-                <button type="button" class="btn btn1 btn-primary btn-lg">Get Started</button>
-            </div>
+                <h3>Complete Website Layout</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <img src="./img/bg3.jpg" alt="" srcset="">
+    </div>
+    <div class="carousel-item">
+        <img src="./img/bg4.jpg" alt="" srcset="">
+    </div>
+</div>
 
-          
-</div> 
+</div>
+       
 
 
     <!-- jumbotron -->
@@ -147,13 +163,10 @@
     </div>
 </figure>
     <!-- emoju section -->
-
-<div id="emoji" >
-    
-        <h1 class="display-4 centeri fonny">Have some fun!</h1>
-        <hr class="my-4">
+<button class="fun" data-toggle="collapse" data-target="#emoji">Press me for Fun!</button>
+<div id="emoji" class="collapse">
     <div class="container-fluid padding centeri">
-        <div class="row text-center centeri">
+        <div class="row text-center">
            
             <div class="col-sm-6 col-md-3">
                     <img class="gif" src="./img/g2.gif" alt="">
